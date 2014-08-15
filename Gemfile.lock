@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    ip-location (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ip-location!
+  minitest
