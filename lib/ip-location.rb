@@ -16,7 +16,7 @@ module IPLocation
       json = JSON.parse(res)
       if json["code"] == 0
         info = IPLocation::Info.new
-        %W(country area region city isp).each do |key|
+        %W(country area region city county isp).each do |key|
           info.send("#{key}=", json["data"][key])
         end
         
